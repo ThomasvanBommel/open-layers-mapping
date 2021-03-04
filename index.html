@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>OpenLayers Mapping</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Website interaction -->
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Mapping Application</h1>
+
+        <!-- Open layers logo -->
+        <div id="logo">
+            <img src="https://openlayers.org/en/latest/apidoc/logo-70x70.png" />
+            <a href="https://openlayers.org/">OpenLayers</a>
+        </div>
+    </header>
+
+    <!-- Map -->
+    <main id="map" class="map">
+
+        <!-- Map coordinates -->
+        <div id="map_coords">
+            <small>
+                <h4>Map Center:</h4>
+                <p>
+                    Long: <span class="long">--</span>
+                </p>
+                <p>
+                    Lat : <span class="lat">--</span>
+                </p>
+            </small>
+        </div>
+
+        <!-- Cursor coordinates -->
+        <div id="cur_coords">
+            <small>
+                <p>
+                    Long: <span class="long">--</span>
+                </p>
+                <p>
+                    Lat : <span class="lat">--</span>
+                </p>
+            </small>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>&copy; Thomas vanBommel</footer>
+</body>
+</html>
